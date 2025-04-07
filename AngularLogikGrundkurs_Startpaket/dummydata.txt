@@ -1,12 +1,3 @@
-import { Component } from '@angular/core';
-
-@Component({
-  selector: 'app-fruitlist',
-  imports: [],
-  templateUrl: './fruitlist.component.html',
-  styleUrl: './fruitlist.component.scss'
-})
-export class FruitlistComponent {
   fruitlist = [
     {
       name: "Apfel",
@@ -57,4 +48,3 @@ export class FruitlistComponent {
       reviews:[{name: "Kevin W.", text: "Ganz gut in der Regel!"},{name: "Oliver J.", text: "Absoluter Favorit beim Frühstück"}],
     },
   ]
-}
